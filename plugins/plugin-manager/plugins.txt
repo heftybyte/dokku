@@ -1,0 +1,3 @@
+md=https://github.com/Kloadut/dokku-md-plugin
+mongodb=https://github.com/jeffutter/dokku-mongodb-plugin
+pg=https://github.com/Kloadut/dokku-pg-plugin

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -eo pipefail; [[ $DOKKU_TRACE ]] && set -x
+export PLUGIN_PATH=${PLUGIN_PATH:="/var/lib/dokku/plugins"}
+
+case "$1" in
+  plugins:install)
+    ;;
+  plugins:list)
+    ;;
+  plugins:search)
+    ;;
+  plugins:update)
+    ;;
